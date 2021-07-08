@@ -1,0 +1,1023 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+    background-color:#202123;
+    color:white;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.master-container {
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.header-container,
+.text-container,
+.questions-container,
+.solution-container{
+    position: relative;
+    z-index: 10;
+}
+
+.header-container img{  
+    margin: 51px 64px 0;
+    width: 131px;
+}
+
+.animation-container{
+    position: relative;
+    z-index: 5;
+}
+
+.lottie-env{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+#lottieIntro,
+#lottie, #lottie1, #lottie2, #lottie3, #lottie4, #lottie5, #lottie6, #lottie7, #lottie8, #lottie9, #lottie10, #lottie11, #lottie12, #lottie13 {
+    position: absolute;
+    width: 100%;
+}
+#lottieIntro{
+    display: none;
+}
+
+.progress-container {  
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.progress-container .status-numbers {
+    float:left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    width: 50%;
+}
+
+.progress-container .status-numbers .current-quest-no, 
+.progress-container .status-numbers .total-quest-no{
+    display:inline-block;
+}
+
+.progress-container .next {
+    background-color: #202123;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    margin-bottom: 5px;
+    mask: url("/rs/808-GJW-314/images/dn0621zay-round-continue-button.svg") no-repeat 50% 50%;
+    mask-position: 20px 38px;
+    overflow: hidden;
+    padding-top: 100px;
+    position: absolute;
+    right: 0;  
+    width: 200px;
+    text-align: center;
+    -webkit-mask:  url("/rs/808-GJW-314/images/dn0621zay-round-continue-button.svg") no-repeat 50% 50%;
+    -webkit-mask-position: 20px 38px;
+}
+
+#myProgress {
+    border-radius: 4px;
+    background-color: #DAD9D9;
+    height: 5px;
+    margin: 32px auto 0;
+    width: 100%;
+}
+
+#myBar {
+    height: 5px;
+    border-radius: 4px;
+    background-color: #5DC2ED;
+    width: 1%;
+}
+
+.hidden{
+    display:none;
+}
+/* --- cursor ---*/
+.cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+  }
+.cursor--small {
+    width: 5px;
+    height: 5px;
+    left: -2.5px;
+    top: -2.5px;
+    border-radius: 50%;
+    z-index: 11000;
+    background:#fff;
+}
+.cursor--canvas {
+    width: 100vw;
+    height: 100vh;
+    z-index: 12000;
+}
+
+body, body a  {
+    cursor: none;
+}
+
+/* --- slider ---*/
+
+.range-slider-wrapper {
+width: 600px;
+height: auto;
+padding: 30px 30px 15px;
+margin: 0 auto;
+}
+.range-slider-wrapper .filters-expanded .slider {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+.range-slider-wrapper .filters-expanded .ui-slider-range {
+    background-color: #ccc;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+
+
+.advanced-filters {
+display: none;
+}
+
+.toggle-filters {
+display: inline-block;
+padding: 15px 10px;
+margin-top: 15px;
+margin-left: 15px;
+cursor: pointer;
+background-color: #666;
+color: #eee;
+min-width: 162px;
+text-align: center;
+border-radius: 5px;
+transition: all .6s ease;
+}
+.toggle-filters:hover {
+    background-color: #932222;
+    color: #fff;
+}
+
+
+.slider-heading {
+display: block;
+font-size: 17px;
+font-style: italic;
+margin-bottom: 50px;
+margin-left: 15px;
+}
+
+.slider {
+position: relative;
+width: 50%;
+height: 10px;
+margin-left: 15px;
+background-color: #666;
+margin-bottom: 25px;
+border-radius: 6px;
+border: 1px solid rgba(0, 0, 0, .15);
+}
+.slider .ui-slider-handle {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    outline: none;
+}
+
+
+.value {
+display: block;
+position: absolute;
+padding: 7px;
+background-color: #666;
+border-radius: 5px;
+bottom: 30px;
+left: 50%;
+transform: translateX(-50%);
+color: #fff;
+font-size: 11px;
+}
+
+.value::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    pointer-events: none;
+    border-color: rgba(194,225,245,0);
+    border-top-color: #676f73;
+    border-width: 5px;
+    margin-left: -5px;
+}
+
+.ui-state-focus,
+.ui-state-hover{
+border-color: transparent !important;
+}
+/* --- one --- */
+.one #lottieIntro,
+.two #lottieIntro{
+    bottom: 0;
+    display: block;
+}   
+
+.one #lottie, .one #lottie1, .one #lottie2, .one #lottie3, .one #lottie4, .one #lottie5, .one #lottie6, .one #lottie7, .one #lottie8, .one #lottie9, .one #lottie10, .one #lottie11, .one #lottie12, .one #lottie13,
+.two #lottie, .two #lottie1, .two #lottie2, .two #lottie3, .two #lottie4, .two #lottie5, .two #lottie6, .two #lottie7, .two #lottie8, .two #lottie9, .two #lottie10, .two #lottie11, .two #lottie12, .two #lottie13{
+    display: none;
+} 
+
+.one .header-container,
+.one .text-container,
+.two .text-container {
+    text-align: center;
+}
+
+.one .header-container {
+    margin-top: 170px;
+}
+
+.one .header-container img{  
+    margin: 0;
+    width: 205px;
+}
+
+.one .text-container h1 {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 68px;
+    margin: 6px 0 29px;
+}
+.one .text-container h2,
+.two .text-container h2 {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;  
+    margin: 0 auto 47px;
+    width: 33%;
+}
+.one .text-container h2 span{
+    font-weight: 700;
+    color: #669DF6;
+}
+
+.one .text-container a{
+    background-image: url("/rs/808-GJW-314/images/dn0621zay-lets-begin-button.svg");
+    padding: 13px 29px;
+}
+
+.one .progress-container,
+.one .progress-bar,
+.one .status-numbers,
+.two .progress-container,
+.two .progress-bar,
+.two .status-numbers {
+    display: none;
+}
+
+.one .progress-container .next,
+.two .progress-container .next {  
+    display: block;
+    margin-top: -30%;
+    text-align: center;
+    width: 100%;   
+}
+
+/* --- two --- */
+.two .text-container h2 {
+font-family: 'Google Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+}
+.two .text-container .next {
+    background-image: url("/rs/808-GJW-314/images/dn0621zay-lets-begin-button.svg");
+    color: #ffffff;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+    padding: 13px 32px;
+    text-align: center;
+}
+/*
+.two .progress-container .next {
+    margin-top: -15%;
+}
+*/
+/* --- three --- */
+.three .questions-container {
+    margin: 60px 11%;
+}
+
+.three .quest-text-container H2 {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 68px;
+    letter-spacing: -0.4px;
+    margin-bottom: 94px;
+    width: 50%;
+}
+
+.three .quest-text-container p {
+    font-family: 'Google Sans';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 27px;
+}
+
+.three #button-container .option { 
+    /* Google Blue/Blue 500 */
+    border: 1px solid #2F4977;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 3.6%;
+    padding: 30px;
+    text-align: center;
+    width: 18.7%;
+}
+
+.three #button-container .option.active {
+    background: rgba(66, 133, 244, 0.2);
+    /* Google Blue/Blue 500 */
+    border: 2px solid #4185F4;
+}
+
+.three #lottie5,
+.three #lottie6 {
+    opacity: 0.1;
+}
+
+.three #myBar {
+    background-color: #4185F4;
+}
+
+.three .progress-container .next {
+    background-color: #2E4877;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}
+
+/* --- four --- */
+.four .text-container {  
+    bottom: 0;
+    margin: 22% 11% 0;
+}
+
+.four .text-container h2 {
+    font-family: 'Google Sans';
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 75px;
+    margin-bottom: 0;
+}
+
+.four .text-container h3 {
+    font-family: 'Google Sans';
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 43px;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.2px;
+    width: 93%;
+}
+
+.four .text-container p {
+    font-family: 'Google Sans';
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+
+.four .text-container p a {
+    text-decoration: underline;
+}
+
+.four #lottie5, .four #lottie6, .four #lottie7, .four #lottie8, .four #lottie9, .four #lottie10, .four #lottie11, .four #lottie12, .four #lottie13{
+    opacity:0.1;
+} 
+
+.four #myBar {
+    background-color: #4185F4;
+}
+
+.four .progress-container .next {
+    background-color: #2E4877;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}
+
+
+/* --- five --- */
+.five .questions-container {
+    margin: 0 11%;
+}
+
+.five .questions-container .quest-text-container h2{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 66px;
+    letter-spacing: -0.4px;
+    width: 47%;
+    margin-top: 79px;
+    margin-bottom: 84px;
+}
+
+.five .questions-container .quest-text-container p{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    margin-bottom: 27px;
+}
+
+.five #button-container .option { 
+    border: 1px solid #785F17;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 3.8%;
+    min-height: 133px;
+    padding: 30px;
+    text-align: center;
+    vertical-align: top;
+    width: 18.6%;
+}
+
+.five #button-container .option.active {
+    background: rgba(249, 171, 0, 0.05);
+    border: 2px solid #FBBC04;
+}
+
+.five #lottie1, .five #lottie2, .five #lottie3, .five #lottie4, .five #lottie6, .five #lottie7, .five #lottie8, .five #lottie9, .five #lottie10, .five #lottie11, .five #lottie12, .five #lottie13{
+    opacity:0.1;
+} 
+
+.five #myBar {
+    background-color: #FBBC04;
+}
+
+.five .progress-container .next {
+    background-color: #FBBC04;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}
+
+/* --- six --- */
+.six .text-container {
+    margin: 22% 11% 0;
+}
+
+.six .text-container h2 {
+    font-family: 'Google Sans';
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 75px;
+    margin-bottom: 0;
+}
+
+.six .text-container h3 {
+    font-family: 'Google Sans';
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 43px;
+    letter-spacing: 0.2px;
+    margin-bottom: 23px;
+    margin-top: 0;
+    width: 95%;
+}
+
+.six .text-container p a {
+    text-decoration: underline;
+}
+
+.six #lottie1, .six #lottie2, .six #lottie3, .six #lottie4, .six #lottie6, .six #lottie7, .six #lottie8, .six #lottie9, .six #lottie10, .six #lottie11, .six #lottie12, .six #lottie13{
+    opacity:0.1;
+} 
+
+.six #myBar {
+    background-color: #FBBC04;
+}
+
+.six .progress-container .next {
+    background-color: #FBBC04;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}
+
+/* --- seven --- */
+.seven .questions-container {
+    margin: 0 11%;
+}
+
+.seven .questions-container .quest-text-container h2{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 66px;
+    letter-spacing: -0.4px;
+    width: 61%;
+    margin-top: 79px;
+    margin-bottom: 84px;
+}
+
+.seven .questions-container .quest-text-container p{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    margin-bottom: 27px;
+}
+
+.seven #button-container .option { 
+    border: 1px solid #385E44;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 3.8%;
+    min-height: 133px;
+    padding: 30px;
+    text-align: center;
+    vertical-align: top;
+    width: 18.6%;
+}
+
+.seven #button-container .option.active {
+    background: rgba(56, 94, 68, 0.05);
+    border: 2px solid #385E44;
+}
+
+.seven #lottie1, .seven #lottie2, .seven #lottie3, .seven #lottie4, .seven #lottie5, .seven #lottie7, .seven #lottie8, .seven #lottie9, .seven #lottie10, .seven #lottie11, .seven #lottie12, .seven #lottie13{
+    opacity:0.1;
+} 
+
+.seven #myBar {
+    background-color: #34A854;
+}
+
+.seven .progress-container .next {
+    background-color: #207839;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}
+
+/* --- eight --- */
+.eight .text-container {
+    margin: 22% 11% 0;
+}
+
+.eight .text-container h2 {
+    font-family: 'Google Sans';
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 75px;
+    margin-bottom: 0;
+}
+
+.eight .text-container h3 {
+    font-family: 'Google Sans';
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 43px;
+    letter-spacing: 0.2px;
+    margin-bottom: 23px;
+    margin-top: 0;
+    width: 95%;
+}
+
+.eight .text-container p a {
+    text-decoration: underline;
+}
+
+.eight #lottie1, .eight #lottie2, .eight #lottie3, .eight #lottie4, .eight #lottie6, .eight #lottie7, .eight #lottie8, .eight #lottie9, .eight #lottie10, .eight #lottie11, .eight #lottie12, .eight #lottie13{
+    opacity:0.1;
+} 
+
+.eight #myBar {
+    background-color: #FBBC04;
+}
+
+.eight .progress-container .next {
+    background-color: #FBBC04;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}
+
+/* --- nine --- */
+.nine .questions-container {
+    margin: 0 11%;
+}
+
+.nine .questions-container .quest-text-container h2{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 66px;
+    letter-spacing: -0.4px;
+    width: 61%;
+    margin-top: 79px;
+    margin-bottom: 84px;
+}
+
+.nine .questions-container .quest-text-container p{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    margin-bottom: 27px;
+}
+
+.nine #button-container .option { 
+    border: 1px solid #385E44;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 3.8%;
+    min-height: 133px;
+    padding: 30px;
+    text-align: center;
+    vertical-align: top;
+    width: 18.6%;
+}
+
+.nine #button-container .option.active {
+    background: rgba(56, 94, 68, 0.05);
+    border: 2px solid #385E44;
+}
+
+.nine #lottie1, .nine #lottie2, .nine #lottie3, .nine #lottie4, .nine #lottie5, .nine #lottie7, .nine #lottie8, .nine #lottie9, .nine #lottie10, .nine #lottie11, .nine #lottie12, .nine #lottie13{
+    opacity:0.1;
+} 
+
+.nine #myBar {
+    background-color: #34A854;
+}
+
+.nine .progress-container .next {
+    background-color: #207839;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}
+
+/* --- ten --- */
+.ten .text-container {
+    margin: 22% 11% 0;
+}
+
+.ten .text-container h2 {
+    font-family: 'Google Sans';
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 75px;
+    margin-bottom: 0;
+}
+
+.ten .text-container h3 {
+    font-family: 'Google Sans';
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 43px;
+    letter-spacing: 0.2px;
+    margin-bottom: 23px;
+    margin-top: 0;
+    width: 95%;
+}
+
+.ten .text-container p a {
+    text-decoration: underline;
+}
+
+.ten #lottie1, .ten #lottie2, .ten #lottie3, .ten #lottie4, .ten #lottie6, .ten #lottie7, .ten #lottie8, .ten #lottie9, .ten #lottie10, .ten #lottie11, .ten #lottie12, .ten #lottie13{
+    opacity:0.1;
+} 
+
+.ten #myBar {
+    background-color: #FBBC04;
+}
+
+.ten .progress-container .next {
+    background-color: #FBBC04;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}
+
+/* --- eleven --- */
+.eleven .questions-container {
+    margin: 0 11%;
+}
+
+.eleven .questions-container .quest-text-container h2{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 66px;
+    letter-spacing: -0.4px;
+    width: 61%;
+    margin-top: 79px;
+    margin-bottom: 84px;
+}
+
+.eleven .questions-container .quest-text-container p{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    margin-bottom: 27px;
+}
+
+.eleven #button-container .option { 
+    border: 1px solid #385E44;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 3.8%;
+    min-height: 133px;
+    padding: 30px;
+    text-align: center;
+    vertical-align: top;
+    width: 18.6%;
+}
+
+.eleven #button-container .option.active {
+    background: rgba(56, 94, 68, 0.05);
+    border: 2px solid #385E44;
+}
+
+.eleven #lottie1, .eleven #lottie2, .eleven #lottie3, .eleven #lottie4, .eleven #lottie5, .eleven #lottie7, .eleven #lottie8, .eleven #lottie9, .eleven #lottie10, .eleven #lottie11, .eleven #lottie12, .eleven #lottie13{
+    opacity:0.1;
+} 
+
+.eleven #myBar {
+    background-color: #34A854;
+}
+
+.eleven .progress-container .next {
+    background-color: #207839;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}
+
+/* --- twelve --- */
+.twelve .text-container {
+    margin: 22% 11% 0;
+}
+
+.twelve .text-container h2 {
+    font-family: 'Google Sans';
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 75px;
+    margin-bottom: 0;
+}
+
+.twelve .text-container h3 {
+    font-family: 'Google Sans';
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 43px;
+    letter-spacing: 0.2px;
+    margin-bottom: 23px;
+    margin-top: 0;
+    width: 95%;
+}
+
+.twelve .text-container p a {
+    text-decoration: underline;
+}
+
+.twelve #lottie1, .twelve #lottie2, .twelve #lottie3, .twelve #lottie4, .twelve #lottie6, .twelve #lottie7, .twelve #lottie8, .twelve #lottie9, .twelve #lottie10, .twelve #lottie11, .twelve #lottie12, .twelve #lottie13{
+    opacity:0.1;
+} 
+
+.twelve #myBar {
+    background-color: #FBBC04;
+}
+
+.twelve .progress-container .next {
+    background-color: #FBBC04;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}
+/* --- thirteen --- */
+.thirteen .questions-container {
+    margin: 0 11%;
+}
+
+.thirteen .questions-container .quest-text-container h2{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 66px;
+    letter-spacing: -0.4px;
+    width: 61%;
+    margin-top: 79px;
+    margin-bottom: 84px;
+}
+
+.thirteen .questions-container .quest-text-container p{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    margin-bottom: 27px;
+}
+
+.thirteen #button-container .option { 
+    border: 1px solid #385E44;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 3.8%;
+    min-height: 133px;
+    padding: 30px;
+    text-align: center;
+    vertical-align: top;
+    width: 18.6%;
+}
+
+.thirteen #button-container .option.active {
+    background: rgba(56, 94, 68, 0.05);
+    border: 2px solid #385E44;
+}
+
+.thirteen #lottie1, .thirteen #lottie2, .thirteen #lottie3, .thirteen #lottie4, .thirteen #lottie5, .thirteen #lottie7, .thirteen #lottie8, .thirteen #lottie9, .thirteen #lottie10, .thirteen #lottie11, .thirteen #lottie12, .thirteen #lottie13{
+    opacity:0.1;
+} 
+
+.thirteen #myBar {
+    background-color: #34A854;
+}
+
+.thirteen .progress-container .next {
+    background-color: #207839;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}
+
+/* --- Fourteen --- */
+.Fourteen .text-container {
+    margin: 22% 11% 0;
+}
+
+.Fourteen .text-container h2 {
+    font-family: 'Google Sans';
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 75px;
+    margin-bottom: 0;
+}
+
+.Fourteen .text-container h3 {
+    font-family: 'Google Sans';
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 43px;
+    letter-spacing: 0.2px;
+    margin-bottom: 23px;
+    margin-top: 0;
+    width: 95%;
+}
+
+.Fourteen .text-container p a {
+    text-decoration: underline;
+}
+
+.Fourteen #lottie1, .Fourteen #lottie2, .Fourteen #lottie3, .Fourteen #lottie4, .Fourteen #lottie6, .Fourteen #lottie7, .Fourteen #lottie8, .Fourteen #lottie9, .Fourteen #lottie10, .Fourteen #lottie11, .Fourteen #lottie12, .Fourteen #lottie13{
+    opacity:0.1;
+} 
+
+.Fourteen #myBar {
+    background-color: #FBBC04;
+}
+
+.Fourteen .progress-container .next {
+    background-color: #FBBC04;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}
+
+/* --- fifteen --- */
+.fifteen .questions-container {
+    margin: 0 11%;
+}
+
+.fifteen .questions-container .quest-text-container h2{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 66px;
+    letter-spacing: -0.4px;
+    width: 61%;
+    margin-top: 79px;
+    margin-bottom: 84px;
+}
+
+.fifteen .questions-container .quest-text-container p{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    margin-bottom: 27px;
+}
+
+.fifteen #button-container .option { 
+    border: 1px solid #385E44;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 3.8%;
+    min-height: 133px;
+    padding: 30px;
+    text-align: center;
+    vertical-align: top;
+    width: 18.6%;
+}
+
+.fifteen #button-container .option.active {
+    background: rgba(56, 94, 68, 0.05);
+    border: 2px solid #385E44;
+}
+
+.fifteen #lottie1, .fifteen #lottie2, .fifteen #lottie3, .fifteen #lottie4, .fifteen #lottie5, .fifteen #lottie7, .fifteen #lottie8, .fifteen #lottie9, .fifteen #lottie10, .fifteen #lottie11, .fifteen #lottie12, .fifteen #lottie13{
+    opacity:0.1;
+} 
+
+.fifteen #myBar {
+    background-color: #34A854;
+}
+
+.fifteen .progress-container .next {
+    background-color: #207839;
+    mask-position: 20px 38px;
+    -webkit-mask-position: 20px 38px;
+}

@@ -1,0 +1,1763 @@
+[{
+    "Page":"one",
+    "Showheader":"false",
+    "Pagetype":"text",
+    "Pagetyeptext":[
+        {
+        "Header":"Google Cloud",
+        "Text":"<h1>Which path will you take?</h1><h2>When you’re striving for top speed, you need to plot a proven path forward. Take this quiz to find out what your business needs for fast, smart, and cost-effective innovation.</h2><div class='start-btn'><a href='#' class='next'>Let's begin</a></div>",
+        "TextBtn":"Let's Begin",        
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "PrimaryQuest":"Question text?",
+        "Questions":[{
+                "Question":""
+                },
+                {
+                "Question":""
+                },
+                {
+                "Question":""
+                },
+                {
+                "Question":""
+                },
+                {
+                "Question":""
+                },
+                {
+                "Question":""
+                }]
+        }
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+        "AnimationType":"level1",
+        "AnimationX":"0%",
+        "AnimationY":"18%", 
+        "AnimationScale":"0.7",
+        "AnimationDuration":"1",  
+        "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"1",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Blue",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"two",
+    "Showheader":"false",
+    "Pagetype":"text",
+    "Pagetyeptext":[
+        {
+        "Header":"",
+        "Text":"<h2>Based on your responses, we’ll generate a personalized, downloadable guide on how to innovate with speed and insight.</h2><a href='#' class='next'>Continue</a>",
+        "TextBtn":"Continue",
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"0%",
+            "AnimationY":"290%", 
+            "AnimationScale":"1",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "PrimaryQuest":"Question text?",
+        "Questions":[{
+            "Question":""
+            },
+            {
+            "Question":""
+            },
+            {
+            "Question":""
+            },
+            {
+            "Question":""
+            },
+            {
+            "Question":""
+            },
+            {
+            "Question":""
+            }]
+        }
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"59%",
+            "AnimationY":"-40%", 
+            "AnimationScale":"2",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"1",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Blue",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"three",
+    "Showheader":"true",
+    "Pagetype":"question",
+    "Pagetyeptext":[
+        {
+        "Header":"Google Cloud",
+        "HeaderH2":"",
+        "Paragraph":"",
+        "TextBtn":"Continue",
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"1",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "QuestionSelect":"multi",
+        "QuestionScore":"false",
+        "QuestionNumber":"1",
+        "PrimaryQuest":"<h2>Over the next 6 to 12 months, what’s your main priority?</H2><p>Choose one of the following</p>",
+        "Questions":[{
+            "Question":"Building new products",
+            "Score":""
+            },
+            {
+            "Question":"Scaling existing products",
+            "Score":""
+            },
+            {
+            "Question":"Growing customer base",
+            "Score":""
+            },
+            {
+            "Question":"Expanding into new markets",
+            "Score":""
+            }],    
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"88%",
+            "AnimationY":"-200%", 
+            "AnimationScale":"1.75",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }  
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"88%",
+            "AnimationY":"-200%", 
+            "AnimationScale":"1.75",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"1",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Blue",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"four",
+    "Showheader":"true",
+    "Pagetype":"text",
+    "Pagetyeptext":[
+        {
+            "Header":"",
+            "Text":"<h2>It starts with a vision</h2><h3>76% of IT leaders say they continue to struggle to strike the right balance between business innovation and operational excellence.</h3><p>Source: <a href='https://www.idg.com/tools-for-marketers/2021-state-of-the-cio/' target='_blank'>IDG</a></p>",
+            "TextBtn":"Continue",
+            "Animation":[
+                {
+                "AnimationType":"start",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"1",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",  
+                "AnimationTransition":"elastic"
+                },
+                {
+                "AnimationType":"end",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"0.7",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",    
+                "AnimationTransition":"elastic"
+                }
+            ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "PrimaryQuest":"Question text?",
+        "Questions":[{
+                "Questionone":"",
+                "Questiontwo":"",
+                "Questionthree":"",
+                "Questionfour":"",
+                "Questionfive":"",
+                "Questionsix":""
+            }],    
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"88%",
+            "AnimationY":"-200%", 
+            "AnimationScale":"1.75",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"30%",
+            "AnimationY":"-178%", 
+            "AnimationScale":"1.35",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"1",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Blue",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"five",
+    "Showheader":"true",
+    "Pagetype":"question",
+    "Pagetyeptext":[
+        {
+            "Header":"",
+            "Text":"<h2>CEOs’ top priorities for 2021 show confidence</h2><h3>Over half of CEOs report growth as their primary focus, followed by technology change and corporate action.</h3><p>Source: Gartner</p>",
+            "TextBtn":"Continue",
+            "Animation":[
+                {
+                "AnimationType":"start",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"1",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",  
+                "AnimationTransition":"elastic"
+                },
+                {
+                "AnimationType":"end",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"0.7",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",    
+                "AnimationTransition":"elastic"
+                }
+            ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "QuestionNumber":"2",
+        "PrimaryQuest":"<h2>What technologies do you use to create business value?</h2><p>Choose as many as you like.</p>",
+        "Questions":[{
+            "Question":"Smart analytics and AI",
+            "Score":"1"
+            },
+            {
+            "Question":"Managed scalable databases",
+            "Score":"1"
+            },
+            {
+            "Question":"Containers and microservices",
+            "Score":"1"
+            },
+            {
+            "Question":"Tools to process petabytes of data in minutes",
+            "Score":"1"
+            }],
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"88%",
+            "AnimationY":"-200%", 
+            "AnimationScale":"1.75",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+            ]
+        } 
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"63%",
+            "AnimationY":"-218%", 
+            "AnimationScale":"1.8",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"2",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Yellow",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"six",
+    "Showheader":"true",
+    "Pagetype":"text",
+    "Pagetyeptext":[
+        {
+            "Header":"",
+            "Text":"<h2>Consider this</h2><h3>The top 10% percent of companies leading in technology adoption perform twice as well as the bottom 25%.</h3><p>Source: <a href='https://www.accenture.com/_acnmedia/Thought-Leadership-Assets/PDF-5/Make-the-leap-take-the-lead-Report-v2.pdf' target='_blank'>Accenture</a></p>",
+            "TextBtn":"",
+            "Animation":[
+                {
+                "AnimationType":"start",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"1",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",  
+                "AnimationTransition":"elastic"
+                },
+                {
+                "AnimationType":"end",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"0.7",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",    
+                "AnimationTransition":"elastic"
+                }
+            ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "PrimaryQuest":"Question text?",
+        "HelperText":"Helper text new",   
+        "Questions":[{
+                "Questionone":"",
+                "Questiontwo":"",
+                "Questionthree":"",
+                "Questionfour":"",
+                "Questionfive":"",
+                "Questionsix":""
+            }]
+        }
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"27%",
+            "AnimationY":"-198%", 
+            "AnimationScale":"1.7",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"2",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Yellow",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"seven",
+    "Showheader":"true",
+    "Pagetype":"question",
+    "Pagetyeptext":[
+        {
+        "Header":"Google Cloud",
+        "HeaderH2":"",
+        "Paragraph":"",
+        "TextBtn":"Continue",
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"1",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "QuestionNumber":"3",
+        "PrimaryQuest":"<h2>In the last 12 months, which areas has your business innovated in?</H2><p>Choose as many as you like.</p>",
+        "Questions":[{
+            "Question":"Product innovation",
+            "Score":"1"
+            },
+            {
+            "Question":"Business process innovation",
+            "Score":"1"
+            },
+            {
+            "Question":"Business model innovation",
+            "Score":"1"
+            }],      
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"0%",
+            "AnimationY":"480%", 
+            "AnimationScale":"1",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }  
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"55%",
+            "AnimationY":"-205%", 
+            "AnimationScale":"1.8",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"1",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Blue",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"eight",
+    "Showheader":"true",
+    "Pagetype":"text",
+    "Pagetyeptext":[
+        {
+            "Header":"",
+            "Text":"<h2>Innovation gives you an edge</h2><h3>Innovation leaders are about 15% more likely to prioritize business model innovation.</h3><p>Source: <a href='https://www.bcg.com/en-au/publications/2020/most-innovative-companies/overview' target='_blank'>BCG</a></p>",
+            "TextBtn":"",
+            "Animation":[
+                {
+                "AnimationType":"start",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"1",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",  
+                "AnimationTransition":"elastic"
+                },
+                {
+                "AnimationType":"end",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"0.7",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",    
+                "AnimationTransition":"elastic"
+                }
+            ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "PrimaryQuest":"Question text?",
+        "HelperText":"Helper text new",   
+        "Questions":[{
+                "Questionone":"",
+                "Questiontwo":"",
+                "Questionthree":"",
+                "Questionfour":"",
+                "Questionfive":"",
+                "Questionsix":""
+            }]
+        }
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"13%",
+            "AnimationY":"-28%", 
+            "AnimationScale":"1.2",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"2",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Yellow",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"nine",
+    "Showheader":"true",
+    "Pagetype":"question",
+    "Pagetyeptext":[
+        {
+        "Header":"Google Cloud",
+        "HeaderH2":"",
+        "Paragraph":"",
+        "TextBtn":"Continue",
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"1",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"stack",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "QuestionNumber":"4",
+        "PrimaryQuest":"<h2>What are your goals when innovating?</H2><p>Stack responses from highest (1) to lowest (4)</p>",
+        "Questions":[{
+            "Question":"Reducing risk during dev cycles ",
+            "Score":"2"
+            },
+            {
+            "Question":"Eliminate reliance on infrastructure",
+            "Score":"4"
+            },
+            {
+            "Question":"Lowering costs and complexity",
+            "Score":"3"
+            },
+            {
+            "Question":"Unlocking CX insights ",
+            "Score":"1"
+            }],      
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"0%",
+            "AnimationY":"480%", 
+            "AnimationScale":"1",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }  
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"86%",
+            "AnimationY":"-30%", 
+            "AnimationScale":"1.5",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"1",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Blue",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"ten",
+    "Showheader":"true",
+    "Pagetype":"text",
+    "Pagetyeptext":[
+        {
+            "Header":"",
+            "Text":"<h2>The benefits stack up/h2><h3>One innovative research company, Arabesque AI, has gained 10x greater ability to analyze data while lowering server costs by 75% with Google Cloud.</h3><p>Source: <a href='https://cloud.google.com/customers/arabesque-ai' target='_blank'>Google Cloud</a></p>",
+            "TextBtn":"",
+            "Animation":[
+                {
+                "AnimationType":"start",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"1",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",  
+                "AnimationTransition":"elastic"
+                },
+                {
+                "AnimationType":"end",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"0.7",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",    
+                "AnimationTransition":"elastic"
+                }
+            ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "PrimaryQuest":"Question text?",
+        "HelperText":"Helper text new",   
+        "Questions":[{
+                "Questionone":"",
+                "Questiontwo":"",
+                "Questionthree":"",
+                "Questionfour":"",
+                "Questionfive":"",
+                "Questionsix":""
+            }]
+        }
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"13%",
+            "AnimationY":"-28%", 
+            "AnimationScale":"1.2",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"2",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Yellow",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"eleven",
+    "Showheader":"true",
+    "Pagetype":"question",
+    "Pagetyeptext":[
+        {
+        "Header":"Google Cloud",
+        "HeaderH2":"",
+        "Paragraph":"",
+        "TextBtn":"Continue",
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"1",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"slider",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "QuestionNumber":"5",
+        "PrimaryQuest":"<h2>How do you rate your appetite to:</h2><p>Slide from low (1) to high (5).</p>",
+        "Questions":[{
+            "Question":"Take bold ideas to market"
+            },
+            {
+            "Question":"Value internal innovation and leadership"
+            },
+            {
+            "Question":"Beat the competition"
+            }],      
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"0%",
+            "AnimationY":"480%", 
+            "AnimationScale":"1",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }  
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"86%",
+            "AnimationY":"-30%", 
+            "AnimationScale":"1.5",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"1",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Blue",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"twelve",
+    "Showheader":"true",
+    "Pagetype":"text",
+    "Pagetyeptext":[
+        {
+            "Header":"",
+            "Text":"<h2>Boldness leads to opportunity/h2><h3>Four factors drive performance for the top 10% of firms: innovation novelty, triple threats, collaborative breadth, and corporate entrepreneurship.</h3><p>Source: <a href='https://www.csiro.au/thrivingthroughinnovation' target='_blank'>CSIRO</a></p>",
+            "TextBtn":"",
+            "Animation":[
+                {
+                "AnimationType":"start",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"1",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",  
+                "AnimationTransition":"elastic"
+                },
+                {
+                "AnimationType":"end",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"0.7",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",    
+                "AnimationTransition":"elastic"
+                }
+            ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "PrimaryQuest":"Question text?",
+        "HelperText":"Helper text new",   
+        "Questions":[{
+                "Questionone":"",
+                "Questiontwo":"",
+                "Questionthree":"",
+                "Questionfour":"",
+                "Questionfive":"",
+                "Questionsix":""
+            }]
+        }
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"13%",
+            "AnimationY":"-28%", 
+            "AnimationScale":"1.2",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"2",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Yellow",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"thirteen",
+    "Showheader":"true",
+    "Pagetype":"question",
+    "Pagetyeptext":[
+        {
+        "Header":"Google Cloud",
+        "HeaderH2":"",
+        "Paragraph":"",
+        "TextBtn":"Continue",
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"1",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "QuestionNumber":"6",
+        "PrimaryQuest":"<h2>When innovating, how do you collaborate?</H2><p>Choose as many as you like</p>",
+        "Questions":[{
+            "Question":"Mostly in-house",
+            "Score":"1"
+            },
+            {
+            "Question":"Formal collaboration",
+            "Score":"1"
+            },
+            {
+            "Question":"With a range of partners",
+            "Score":"1"
+            }],      
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"0%",
+            "AnimationY":"480%", 
+            "AnimationScale":"1",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }  
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"86%",
+            "AnimationY":"-30%", 
+            "AnimationScale":"1.5",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"1",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Blue",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"Fourteen",
+    "Showheader":"true",
+    "Pagetype":"text",
+    "Pagetyeptext":[
+        {
+            "Header":"",
+            "Text":"<h2>Teamwork makes the dream work</h2><h3>Co-creating innovations with a range of collaborators is 20% more important to performance than in-house innovation.</h3><p>Source: <a href='https://www.csiro.au/thrivingthroughinnovation' target='_blank'>CSIRO</a></p>",
+            "TextBtn":"",
+            "Animation":[
+                {
+                "AnimationType":"start",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"1",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",  
+                "AnimationTransition":"elastic"
+                },
+                {
+                "AnimationType":"end",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"0.7",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",    
+                "AnimationTransition":"elastic"
+                }
+            ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "PrimaryQuest":"Question text?",
+        "HelperText":"Helper text new",   
+        "Questions":[{
+                "Questionone":"",
+                "Questiontwo":"",
+                "Questionthree":"",
+                "Questionfour":"",
+                "Questionfive":"",
+                "Questionsix":""
+            }]
+        }
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"13%",
+            "AnimationY":"-28%", 
+            "AnimationScale":"1.2",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"2",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Yellow",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"fifteen",
+    "Showheader":"true",
+    "Pagetype":"question",
+    "Pagetyeptext":[
+        {
+        "Header":"Google Cloud",
+        "HeaderH2":"",
+        "Paragraph":"",
+        "TextBtn":"Continue",
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"1",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "QuestionNumber":"7",
+        "PrimaryQuest":"<h2>WWhat holds you back from innovating the next best thing?</H2><p>Choose as many as you like</p>",
+        "Questions":[{
+            "Question":"Technical debt",
+            "Score":""
+            },
+            {
+            "Question":"Employee skills",
+            "Score":""
+            },
+            {
+            "Question":"Poor and/or costly app performance",
+            "Score":""
+            },
+            {
+            "Question":"Inability to take advantage of data",
+            "Score":""
+            },
+            {
+            "Question":"Lack of AI/ML",
+            "Score":""
+            }],      
+        "Animation":[
+            {
+            "AnimationType":"start",
+            "AnimationX":"0%",
+            "AnimationY":"480%", 
+            "AnimationScale":"1",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",  
+            "AnimationTransition":"elastic"
+            },
+            {
+            "AnimationType":"end",
+            "AnimationX":"0%",
+            "AnimationY":"18%", 
+            "AnimationScale":"0.7",
+            "AnimationDuration":"1",
+            "AnimationDelay":"",    
+            "AnimationTransition":"elastic"
+            }
+        ]
+        }  
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"86%",
+            "AnimationY":"-30%", 
+            "AnimationScale":"1.5",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"1",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Blue",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"Sixteen",
+    "Showheader":"true",
+    "Pagetype":"text",
+    "Pagetyeptext":[
+        {
+            "Header":"",
+            "Text":"<h2>Breaking down the barriers</h2><h3>The top 2 issues larger firms face when innovating are a lack of discipline in resource allocation (31%), and difficulty getting the organization behind the innovation strategy (27%).</h3><p>Source: <a href='https://www.bcg.com/en-au/publications/2020/most-innovative-companies/successful-innovation' target='_blank'>BCG</a></p>",
+            "TextBtn":"",
+            "Animation":[
+                {
+                "AnimationType":"start",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"1",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",  
+                "AnimationTransition":"elastic"
+                },
+                {
+                "AnimationType":"end",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"0.7",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",    
+                "AnimationTransition":"elastic"
+                }
+            ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "PrimaryQuest":"Question text?",
+        "HelperText":"Helper text new",   
+        "Questions":[{
+                "Questionone":"",
+                "Questiontwo":"",
+                "Questionthree":"",
+                "Questionfour":"",
+                "Questionfive":"",
+                "Questionsix":""
+            }]
+        }
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"Question text?",
+        "Solpara":"Helper text new",
+        "Solparahelper":"Helper text new",
+        "SolHeaderThree":"Question text?",     
+        "CompanyLinks":[{
+                "CoLinksOne":"",
+                "CoLinksTwo":"",
+                "CoLinksThree":"",
+                "CoLinksFour":"",
+                "CoLinksFive":"",
+                "CoLinksSix":"",
+                "CoLinksSeven":"",
+                "CoLinksEight":"",
+                "CoLinksNine":"",
+                "CoLinksTen":""
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"13%",
+            "AnimationY":"-28%", 
+            "AnimationScale":"1.2",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"2",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Yellow",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+},
+{
+    "Page":"Seventeen",
+    "Showheader":"true",
+    "Pagetype":"result",
+    "Pagetyeptext":[
+        {
+            "Header":"",
+            "Text":"<h2>Congratulations</h2><h3>You’re on your way. <span>What’s next?</span></h3>",
+            "TextBtn":"",
+            "Animation":[
+                {
+                "AnimationType":"start",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"1",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",  
+                "AnimationTransition":"elastic"
+                },
+                {
+                "AnimationType":"end",
+                "AnimationX":"0%",
+                "AnimationY":"18%", 
+                "AnimationScale":"0.7",
+                "AnimationDuration":"1",
+                "AnimationDelay":"",    
+                "AnimationTransition":"elastic"
+                }
+            ]
+        }
+    ],
+    "QuestionTypetext":[
+        {
+        "QuestionType":"box",
+        "QuestionSelect":"multi",
+        "QuestionScore":"true",
+        "PrimaryQuest":"Question text?",
+        "HelperText":"Helper text new",   
+        "Questions":[{
+                "Questionone":"",
+                "Questiontwo":"",
+                "Questionthree":"",
+                "Questionfour":"",
+                "Questionfive":"",
+                "Questionsix":""
+            }]
+        }
+    ],
+    "SolutionTypetext":[
+        {
+        "SolutionType":"level1",
+        "SolHeader":"",
+        "Solpath1":"<p>Speed, intelligence, and cost savings are the name of the game for your business. To innovate at pace, you know you need modern platforms, containers, serverless environments, smart analytics, and the ability to connect to the tools you already use. Now, you need a partner who can keep up.</p><p>So, what are your organization’s next steps to go to market successfully? </p><a class='findOut' href='#'>Let's find out</a>",
+        "Solpath2":"<p>You know that data and insights will help you land new customers, build new products, and realize your full potential. To get there, consider moving away from manual, bolted-on integrations to seamless, sophisticated analytics solutions.</p><p>What are your organization’s next steps to leverage data and build a better experience for your customers?</p><a class='findOut' href='#'>Let's find out</a>",
+        "Solpath3":"<p>Innovating quickly and easily is your main aim. After all, speed is the new imperative in business. You know that accelerating time-to-market gives you a competitive edge, and you’re after tools like containers and microservices to get you from code to production in record time – with increased developer productivity, simplified workflows, and optimized overhead.</p><p>So, what are your organization’s next steps to deploy faster and build a better experience for your customers?</p><a class='findOut' href='#'>Let's find out</a>",     
+        "Casestudy":[{
+                "Customer":"Spotify",
+                "Headline":"<h2>Spotify: Putting data to work, one listener at a time</h2>",
+                "Body":"<p>Streaming audio requires fast product development, customer understanding, and powerful tools for recommendation, music discovery, and connecting people.</p><p>By employing automated, developer-friendly services in the cloud, Spotify’s teams can focus better on its core business, while gaining access to services, like data analytics, on which it can grow. Plus, being able to go faster and to more efficiently test new features and ideas helps Spotify focus its DNA of creativity and excellence on even more innovative experiences.",
+                "KeyStats":"<p class='stats'>271 million<br>users globally<br>20,000<br>daily jobs moved to the cloud</p>",
+                "Quote":"<p>Having infrastructure managed for us, with the lower-value details taken away, streamlines our ability to concentrate on what’s important to our users and give them the experiences they know and love.</p><p class='name'>Tyson Singer</p><p class='title'>Vice President, Technology and Platform, Spotify</p>"
+            },
+            {
+                "Customer":"PayPal",
+                "Headline":"<h2>PayPal: Improving the global economy for all</h2>",
+                "Body":"<p>In the fast-moving online payments industry, PayPal’s mission is simple: bringing a better financial life to everyone and everywhere it can. To maintain its edge when the pandemic triggered a surge in digital traffic and transactions, the company needed to accelerate its infrastructure strategy.</p><p>PayPal’s decision to migrate horizontally scalable applications to the cloud saw it thrive during the crucial holiday season, as it quickly adjusted to demand without the costs of maintaining on-premises infrastructure.</p>",
+                "KeyStats":"<p class='stats'>1,000<br/>payments per second at peak times<br/>20%<br/>of core infrastructure on Google Cloud, with more to come</p>",
+                "Quote":"<p>We can only develop fast, build fast, and deploy fast if we have infrastructure that’s as nimble as we are.</p><p class='name'>Sri Shivananda</p><p class='title'>CTO, PayPal</p>"
+            },
+            {
+                "Customer":"Zulily",
+                "Headline":"<h2>Zulily: Driving loyalty with real-time insights</h2>",
+                "Body":"<p>Cutting through the crowded online marketplace means offering an exceptional customer experience. Zulily – an online retailer of family clothing and home products – takes this to the next level, providing a unique website for nearly every visitor.</p><p>Rapidly flowing customer data on pages visited, deals clicked on, purchase history, and interaction with ads is centralized on Google Cloud, enabling the analysis, scalability, and reliability Zulily needs to continue engaging busy moms.</p>",
+                "KeyStats":"<p class='stats'>5 billion<br/>clickstream events collected daily<br/>100+<br/>sales events launched each day</p>",
+                "Quote":"<p>There isn’t a single experience of moms’ engagement with us that isn’t somehow influenced by a flow or data element that’s running through our core Google Cloud-based systems.</p><p class='name'>Olly Downs</p><p class='title'>Vice President Marketing Technology, Data, and Machine Learning, Zulily</p>"
+            },
+            {
+                "Customer":"Just Eat",
+                "Headline":"<h2>Just Eat: Powerful data, delivered fresh</h2>",
+                "Body":"<p>A pioneer in food delivery services, the Denmark-founded and now UK-based Just Eat has expanded to multiple countries and tens of millions of customers. However, double-digit growth introduced more challenges around scale and latency.</p><p>With BigQuery, Just Eat has unified millions of data points on a single platform – personalizing customer experiences and increasing its competitive advantage – while the Google Kubernetes Engine empowers the data science team with self-service machine learning pipelines.</p>",
+                "KeyStats":"<p class='stats'>250 million<br/>data events ingested daily<br/>1 second<br/>data latency, reduced from 24 hours</p>",
+                "Quote":"<p>We always want to be one step ahead, and that means being able to view and use information in real time.</p><p class='name'>Richard Haigh</p><p class='title'>CTO, Just Eat</p>"
+            },
+            {
+                "Customer":"Arabesque AI",
+                "Headline":"<h2>Arabesque AI: Rethinking finance, while reducing costs</h2>",
+                "Body":"<p>Arabesque AI operates at the cutting edge of financial asset management, using AI to analyze and predict market behavior and build investment strategies. So as the company expanded its services to meet increasing demand for AI in finance, it needed a cutting-edge cloud platform.</p><p>Migrating its entire infrastructure to Google Cloud helped Arabesque AI minimize infrastructure management while maximizing scalability. Its next goal? Developing more, data-driven ways to serve clients better.</p>",
+                "KeyStats":"<p class='stats'>75%<br/>reduced server costs<br/>10x<br/>increased ability to stream and analyze data</p>",
+                "Quote":"<p>Most of our resources go toward research and only minimal effort is spent on operations. That’s the opposite of what we had before.</p><p class='name'>Nikolaos Kaplis</p><p class='title'>CTO, Arabesque AI</p>"
+            },
+            {
+                "Customer":"King",
+                "Headline":"<h2>King: Leading the way with machine learning</h2>",
+                "Body":"<p>King, the mobile gaming company behind Candy Crush Saga and hundreds of other titles, blends art and science into a winning formula. As they looked to the future, this meant asking themselves whether a monolithic on-premises environment would support their goals.</p><p>By migrating to a cloud-based data platform, King maintained stability at scale and gained access to the latest machine learning technology – ideal for playtesting the next hit game.</p>",
+                "KeyStats":"<p class='stats'>270 million<br/>players a month<br/>XX petabytes<br/>of data stored with minimal overheads</p>",
+                "Quote":"<p>Our infrastructure needs to support hundreds of thousands of concurrent connections per second, as well as our data warehouse.</p><p class='name'>Jacques Erasmus</p><p class='title'>CIO, King</p>"
+            },
+            {
+                "Customer":"Brandfolder",
+                "Headline":"<h2>Brandfolder: Taking a smarter approach to brand-building</h2>",
+                "Body":"<p>Digital asset management is a must for building brands today. That’s where Brandfolder comes in, offering a simple and scalable platform for customers to distribute assets wherever they need to go.</p><p>Big data, AI, and ML are key to helping Brandfolder meet these customers’ unique needs and maintain its competitive edge. Thanks to the public cloud, Brandfolder can complete more sophisticated data analyses, create brand-specific ML models, and get them into production quickly.</p>",
+                "KeyStats":"<p class='stats'>12x<br/>faster time-to-market<br/>50x<br/>increased analytics and data pipeline</p>",
+                "Quote":"<p>Google Cloud made it easy to build an ML platform to quickly iterate through different brand intelligence use cases and release data-driven product features.</p><p class='name'>Ajay Rajasekharan</p><p class='title'>Head of Data Science, Brandfolder</p>"
+            },
+            {
+                "Customer":"tiket.com",
+                "Headline":"<h2>tiket.com: Staying ahead of sky-high demand</h2>",
+                "Body":"<p>At the online travel agency tiket.com, customer experience is priority number one. As the company rapidly grew, it needed to support rising demand – especially during special events like Online Tiket Week, when customers can save 50% on travel and hotel stays.</p><p>With Google Cloud, tiket.com has overcome the limitations of its existing infrastructure to better manage and analyze data, lower latency, and reduce costs, while preparing to comply with new personal data protection laws.</p>",
+                "KeyStats":"<p class='stats'>Zero downtime<br/>during infrastructure rebuild<br/>10+ terabytes<br/>of data migrated to the cloud</p>",
+                "Quote":"<p>An everything-is-code environment enabled us to easily build new products and features; adapt to changing customer, market, or business circumstances; and move on quickly to new projects and activities.</p><p class='name'>Firman Gautama</p><p class='title'>VP Infrastructure & Security, tiket.com</p>"
+            }]
+        }
+    ],
+    "Animation":[
+        {
+            "AnimationType":"level1",
+            "AnimationX":"13%",
+            "AnimationY":"-28%", 
+            "AnimationScale":"1.2",
+            "AnimationDuration":"1",  
+            "AnimationTransition":"elastic"
+        }
+    ],
+    "ProgressBar":[
+        {
+        "QuestionNumber":"2",
+        "QuestionNumberTotal":"7",
+        "QuestionColor":"Yellow",   
+        "QuestionColorBtn":"Continue"
+        }
+    ]
+}
+]
