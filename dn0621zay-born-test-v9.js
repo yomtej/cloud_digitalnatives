@@ -13,6 +13,7 @@ var questThreeScore =0;
 
 
 function loadDataset() {
+    //dn0621zay-born-test-v9.json
         data = [{
             "Page":"one",
             "Showheader":"false",
@@ -1889,6 +1890,7 @@ const initCanvas = () => {
 
 initCanvas();
 
+//dn0621zay-pattern_00_intro.json
 var introAnimation = bodymovin.loadAnimation({
     animationData: {
         "v": "5.7.8",
@@ -24808,6 +24810,7 @@ var introAnimation = bodymovin.loadAnimation({
     loop: true
   })
 
+  //dn0621zay-base-layer-2.json
 var animation = bodymovin.loadAnimation({
     animationData: {
         "v": "5.6.1",
@@ -28841,6 +28844,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
   
+  //dn0621zay-question-1-a.json
   var animation1 = bodymovin.loadAnimation({
       animationData: {
         "v": "4.8.0",
@@ -29488,6 +29492,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
   
+  //dn0621zay-question-1-b.json
   var animation2 = bodymovin.loadAnimation({
       animationData: {
         "v": "4.8.0",
@@ -30193,6 +30198,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
   
+  //dn0621zay-question-1-c.json
   var animation3 = bodymovin.loadAnimation({
       animationData: {
         "v": "4.8.0",
@@ -30830,6 +30836,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
 
+  //dn0621zay-question-1-d.json
   var animation4 = bodymovin.loadAnimation({
       animationData: {
         "v": "4.8.0",
@@ -31477,6 +31484,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
 
+  //dn0621zay-question-2.json
   var animation5 = bodymovin.loadAnimation({
       animationData: {
         "v": "5.7.4",
@@ -32437,6 +32445,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
 
+  //dn0621zay-question-3.json
   var animation6 = bodymovin.loadAnimation({
       animationData: {
         "v": "5.7.4",
@@ -33108,6 +33117,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
 
+  //dn0621zay-question-4.json
   var animation7 = bodymovin.loadAnimation({
       animationData: {
         "v": "4.8.0",
@@ -36624,6 +36634,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
 
+  //dn0621zay-question-5-a.json
   var animation8 = bodymovin.loadAnimation({
       animationData: {
         "v": "5.7.4",
@@ -37241,6 +37252,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
 
+  //dn0621zay-question-5-b.json
   var animation9 = bodymovin.loadAnimation({
       animationData: {
         "v": "4.8.0",
@@ -37599,6 +37611,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
 
+  //dn0621zay-question-5-c.json
   var animation10 = bodymovin.loadAnimation({
       animationData: {
         "v": "4.8.0",
@@ -37957,6 +37970,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
 
+  //dn0621zay-question-5-d.json
   var animation11 = bodymovin.loadAnimation({
       animationData: {
         "v": "4.8.0",
@@ -38315,6 +38329,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
 
+  //dn0621zay-question-5-e.json
   var animation12 = bodymovin.loadAnimation({
       animationData: {
         "v": "4.8.0",
@@ -38673,6 +38688,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
 
+  //dn0621zay-question-6.json
   var animation13 = bodymovin.loadAnimation({
       animationData: {
         "v": "5.7.4",
@@ -39727,6 +39743,7 @@ var animation = bodymovin.loadAnimation({
     autoplay: false
   })
 
+  //dn0621zay-question-7.json
   var animation14 = bodymovin.loadAnimation({
       animationData: {
         "v": "4.8.0",
